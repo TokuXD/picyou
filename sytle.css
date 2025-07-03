@@ -44,7 +44,7 @@
     background-color: rgb(255, 255, 255);
     color: black;
 
-    transition: 0.4s;
+    transition: all ease-in-out 0.4s;
 }
 
 .sign-button:hover {
@@ -61,20 +61,19 @@
 }
 
 .content {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
-
+    display:grid;
+    grid: auto  / auto auto auto auto ;
+    grid-gap: 10px;
+    
 
     padding: 10px;
-    gap: 1vw;
+
     width: 100%;
-
-
-    border-radius: 46px;
+    margin: 10px;
 }
+
+
+
 
 
 .img1-size {
@@ -87,7 +86,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+
     break-inside: avoid;
     border-radius: 6px;
 
@@ -101,7 +100,7 @@
 }
 
 .img2 {
-    background-image: url("./img/pic3.png");
+    background-image: url("./img/pic2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -114,12 +113,12 @@
 }
 
 .img3-size {
-    width: 20vw;
-    height: 40vh;
+  width: 20vw;
+    height: 70vh;
 }
 
 .img3 {
-    background-image: url("./img/pic7.png");
+    background-image: url("./img/pic4.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -132,12 +131,12 @@
 }
 
 .img4-size {
-    width: 20vw;
-    height: 70vh;
+    width: 30vw;
+    height: 15vh;
 }
 
 .img4 {
-    background-image: url("./img/pic2.png");
+    background-image: url("./img/pic11.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -155,7 +154,7 @@
 }
 
 .img5 {
-    background-image: url("./img/pic5.png");
+    background-image: url("./img/pic3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -168,12 +167,12 @@
 }
 
 .img6-size {
-    width: 20vw;
-    height: 40vh;
+   width: 20vw;
+    height: 70vh;
 }
 
 .img6 {
-    background-image: url("./img/pic10.png");
+    background-image: url("./img/pic5.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -191,7 +190,7 @@
 }
 
 .img7 {
-    background-image: url("./img/pic4.png");
+    background-image: url("./img/pic6.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -209,7 +208,7 @@
 }
 
 .img8 {
-    background-image: url("./img/pic6.png");
+    background-image: url("./img/pic8.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -222,12 +221,12 @@
 }
 
 .img9-size {
-    width: 30vw;
-    height: 15vh;
+    width: 20vw;
+    height: 40vh;
 }
 
 .img9 {
-    background-image: url("./img/pic11.png");
+    background-image: url("./img/pic7.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -241,11 +240,11 @@
 
 .img10-size {
     width: 20vw;
-    height: 72vh;
+    height: 40vh;
 }
 
 .img10 {
-    background-image: url("./img/pic8.png");
+    background-image: url("./img/pic10.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -265,10 +264,10 @@
 .img11 {
     background-image: url("./img/pic9.png");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
 
-    break-inside:avoid;
+    break-inside: avoid;
     border-radius: 6px;
 
     width: 100%;
